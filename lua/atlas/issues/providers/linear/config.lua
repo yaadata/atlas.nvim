@@ -1,0 +1,14 @@
+---@class AtlasLinearIssuesCustomQuery
+---@field query string
+---@field variables table<string, any>|nil
+---@field connection AtlasLinearIssueConnection
+
+---@class AtlasLinearIssuesViewConfig : AtlasIssuesViewConfig
+---@field initiative string|nil
+---@field project string|nil
+---@field team string|nil
+---@field assignee string|nil
+---@field creator string|nil
+---@field states string[]|nil
+---@field labels string[]|nil
+---@field graphql AtlasLinearIssuesCustomQuery|nil
