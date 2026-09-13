@@ -3,7 +3,7 @@
 ---@field variables table<string, any>|nil
 ---@field connection AtlasLinearIssueConnection
 
----@class AtlasLinearIssuesViewConfig : AtlasIssuesViewConfig
+---@class AtlasLinearIssueViewConfig : AtlasIssuesViewConfig
 ---@field initiative string|nil
 ---@field project string|nil
 ---@field team string|nil
